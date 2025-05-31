@@ -28,7 +28,7 @@ void print_block_details(const Block& block, int index) {
 }
 
 int main() {
-    const int difficulty = 10; // Độ khó của việc khai thác block
+    const int difficulty = 4; // Độ khó của việc khai thác block
     cout << "Initializing Blockchain...\n";
     BlockChain blockChain = BlockChain();
     cout << "Blockchain Initialized.\n";
